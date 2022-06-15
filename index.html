@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8"/>
         <title>artipie.com</title>
@@ -18,16 +18,33 @@
         }
         .center {
             text-align: center;
-            width: 20em;
+            width: 30em;
             max-width: 100%;
             padding: 1em;
             height: 20em;
             position: absolute;
-            top:0;
+            top: 0;
             bottom: 0;
             left: 0;
             right: 0;
             margin: auto;
+        }
+        .footer {
+            text-align: center;
+            width: 20em;
+            max-width: 100%;
+            padding: 1em;
+            height: 0;
+            position: absolute;
+            top: 70%;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        .image {
+            width: 40px;
+            height: 40px;
         }
         p {
             margin: 1em 0;
@@ -42,11 +59,17 @@
                 <br/>
                 <a href="https://github.com/login/oauth/authorize?client_id=0f33052d9fee8303c36e&amp;redirect_uri=https://central.artipie.com/auth">Sign in</a>
                 to host your private repos.
-                Check us <a href="https://github.com/artipie/artipie">on GitHub</a>.
+                Our <a href="https://github.com/orgs/artipie/projects/3">roadmap</a>.
                 The fresh news are available at our <a href="https://blog.artipie.com/">blog</a>.
-                We are <a href="mailto:jobs@artipie.com">hiring</a>!
             </p>
+            <p>We are <a href="mailto:jobs@artipie.com">hiring</a>!</p>
+        </div>
+        <div class="footer">
+            <p>Contact us:</p>
+            <a href="https://t.me/artipie"><img src="telegram.svg" class="image" alt="Telegram"/></a>
+            <a href="https://github.com/artipie/"><img src="github.svg" class="image" alt="github"></a>
         </div>
     </body>
+
 </html>
 
